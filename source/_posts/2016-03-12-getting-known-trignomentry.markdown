@@ -1,17 +1,40 @@
 ---
 layout: post
-title: "Trignomentry"
-date: 2015-09-09 23:45:37 +0530
+title: "Get knowledge - Trignomentry"
+date: 2016-03-12 01:00:47 +0530
 comments: true
 categories: 
 ---
-Trignomentry is a mathematical concept deriving the Geomentry Co-ordinates around right angle triangles. We basically dont give much importance in our basic coding unless we try to visually potray some thing in circlular entities.<br/>
+Trignomentry is a subject derived from Geometry in mathematics and it usually works in 2D co-ordinate system with right angle triangles (perpendicular sides).
+We usually dont mind for writing any logic around this concept, until we try to visualize any element in circular values.
 
-[Visual Experiment on Trignomentry](http://kiranml1.github.io/researchdemos/demos/trignomentry/)
+Check my experiment on this subject, It gives a little idea
 
-Their is a name for this right angle triangles sides - opposite, adjacent, hypotenuse <br/>
+** Go to **[Experiment](http://kiranml1.github.io/researchdemos/demos/trignomentry/)
 
-With the ratios of the sides we decide the triangle's properties <br/>
+When this subject comes into play, a basic figure should come into our imagination.
+Which should be as below:
+
+{% img left https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Rtriangle.svg/220px-Rtriangle.svg.png 320 250 Right Angle Triangle Fig-1 %}
+
+In Fig-1, we have sides - a, b, c of 90&deg; sided triangle
+
+a - **opposite**  b - **adjacent**  c - **hypotenuse**
+
+a,b,c are line segments with a positive value in length and few combinational ratios on these sides gives some circular values.
+
+sin &#1012; = b &divide; c ( Here &#1012; can be &ang;A | &ang;B )
+
+cos &#1012; = a &divide; c ( Here &#1012; can be &ang;B | &ang;A )
+
+tan &#1012; = a &divide; b ( Here &#1012; depend on sin &#1012; and cos &#1012; )
+
+Above properties of the triangle describe the ratios of sides of a &perp; triangle, which substitute a circle ratio
+from a quarter in complete circle.
+
+{% img left https://www.arcat.com/bim/kleerlum/Moulding_Kleer_QuarterRound.jpg 320 250 Quarter circle Fig-2 %}
+
+[//]: # Need to author on below section
 
 in triangle we basically follow below points:<br/>
 
