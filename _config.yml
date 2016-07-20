@@ -2,7 +2,7 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://akirankumar.org/kiranml1
+url: http://akirankumar.org
 title: Kiran Kumar - Front End Developer
 subtitle: i'll make an offer that you can't refuse
 author: Kiran Kumar
@@ -16,7 +16,7 @@ description: Front End Developer - Hyderabad
 date_format: "ordinal"
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
-subscribe_rss: /kiranml1/atom.xml
+subscribe_rss: /atom.xml
 subscribe_email:
 # RSS feeds can list your email address if you like
 email:
@@ -26,7 +26,7 @@ email:
 # ----------------------- #
 
 # If publishing to a subdirectory as in http://site.com/project set 'root: /project'
-root: /kiranml1
+root: /
 permalink: /blog/:year/:month/:day/:title/
 source: source
 destination: public
@@ -68,7 +68,7 @@ github_user: kiranml1
 github_repo_count: 0
 github_show_profile_link: true
 github_skip_forks: true
-github_skip_repos: [kiranml1.github.io,old-site-backup,old-site,node-empapp,angularjs,nodebasics,html5-experiments,html5-ecma-standards,researchdemos,cg, user-github-pages]
+github_skip_repos: [kiranml1.github.io,old-site-backup,old-site,node-empapp,angularjs,nodebasics,html5-experiments,html5-ecma-standards,researchdemos,cg,user-github-pages, kefex-ux, kefex-front-end, kefex-back-end, portfolio-content-pages, portfolio-content]
 
 # Twitter
 twitter_user: kiranml1
