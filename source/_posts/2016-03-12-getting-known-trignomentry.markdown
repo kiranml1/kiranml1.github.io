@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Get knowledge - Trignomentry"
+title: "Get knowledge on Trignomentry"
 date: 2016-03-12 01:00:47 +0530
 comments: true
 published: true
