@@ -1,48 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>http://akirankumar.org/blog/2016/07/20/cucumber-bdd-introduction/</loc>
-    <lastmod>2016-07-20T12:20:26+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://akirankumar.org/blog/2016/03/12/getting-known-trignomentry/</loc>
-    <lastmod>2016-03-12T01:00:47+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://akirankumar.org/blog/archives/</loc>
-  </url>
-  <url>
-    <loc>http://akirankumar.org/</loc>
-  </url>
-  <url>
-    <loc>http://akirankumar.org/about-me/</loc>
-  </url>
-  <url>
-    <loc>http://akirankumar.org/blog/categories/mathematics/</loc>
-  </url>
-  <url>
-    <loc>http://akirankumar.org/blog/categories/javascript/</loc>
-  </url>
-  <url>
-    <loc>http://akirankumar.org/blog/categories/algorithms/</loc>
-  </url>
-  <url>
-    <loc>http://akirankumar.org/blog/categories/svg/</loc>
-  </url>
-  <url>
-    <loc>http://akirankumar.org/blog/categories/css/</loc>
-  </url>
-  <url>
-    <loc>http://akirankumar.org/blog/categories/html/</loc>
-  </url>
-  <url>
-    <loc>http://akirankumar.org/blog/categories/ui/</loc>
-  </url>
-  <url>
-    <loc>http://akirankumar.org/blog/categories/web/</loc>
-  </url>
-  <url>
-    <loc>http://akirankumar.org/about/index.html</loc>
-    <lastmod>2016-07-20T16:32:40+05:30</lastmod>
-  </url>
+<url>
+<loc>http://akirank.com/blog/2017/01/22/hackerrank-circular-array-rotation/</loc>
+<lastmod>2017-01-22T17:26:49+05:30</lastmod>
+</url>
+<url>
+<loc>http://akirank.com/blog/2017/01/22/hackerrank-hand-shake/</loc>
+<lastmod>2017-01-22T17:25:38+05:30</lastmod>
+</url>
+<url>
+<loc>http://akirank.com/blog/2017/01/22/hackerrank-max-draws/</loc>
+<lastmod>2017-01-22T17:21:44+05:30</lastmod>
+</url>
+<url>
+<loc>http://akirank.com/blog/2017/01/22/hackerrank-find-a-point/</loc>
+<lastmod>2017-01-22T16:40:26+05:30</lastmod>
+</url>
+<url>
+<loc>http://akirank.com/blog/archives/</loc>
+</url>
+<url>
+<loc>http://akirank.com/</loc>
+</url>
+<url>
+<loc>http://akirank.com/about-me/</loc>
+</url>
+<url>
+<loc>http://akirank.com/blog/categories/hackerrank/</loc>
+</url>
+<url>
+<loc>http://akirank.com/blog/categories/algorithms/</loc>
+</url>
+<url>
+<loc>http://akirank.com/blog/categories/data-structures/</loc>
+</url>
+<url>
+<loc>http://akirank.com/about/index.html</loc>
+<lastmod>2017-11-16T21:52:04+05:30</lastmod>
+</url>
 </urlset>

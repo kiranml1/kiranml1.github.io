@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Kiran Kumar - Front End Developer]]></title>
-  <link href="http://akirankumar.org/atom.xml" rel="self"/>
-  <link href="http://akirankumar.org/"/>
-  <updated>2017-01-12T12:05:05+05:30</updated>
-  <id>http://akirankumar.org/</id>
+  <link href="http://akirank.com/atom.xml" rel="self"/>
+  <link href="http://akirank.com/"/>
+  <updated>2017-11-16T23:05:27+05:30</updated>
+  <id>http://akirank.com/</id>
   <author>
     <name><![CDATA[Kiran Kumar]]></name>
     
@@ -14,41 +14,15 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Cucumber - BDD Introduction]]></title>
-    <link href="http://akirankumar.org/blog/2016/07/20/cucumber-bdd-introduction/"/>
-    <updated>2016-07-20T12:20:26+05:30</updated>
-    <id>http://akirankumar.org/blog/2016/07/20/cucumber-bdd-introduction</id>
-    <content type="html"><![CDATA[<p>Introducing Cucumber to Front end developers : <a href="http://cucumber.io/">http://cucumber.io</a></p>
+    <title type="html"><![CDATA[Hackerrank - Circular Array Rotation]]></title>
+    <link href="http://akirank.com/blog/2017/01/22/hackerrank-circular-array-rotation/"/>
+    <updated>2017-01-22T17:26:49+05:30</updated>
+    <id>http://akirank.com/blog/2017/01/22/hackerrank-circular-array-rotation</id>
+    <content type="html"><![CDATA[<p>Hackerrank - Circular array rotation</p>
 
-<p>Cucumber is oriented to be a BDD (Behaviour Driven Development) testing framework as &ldquo;jasmine&rdquo; testing framework.
-It is generally used in automation of a web application aka functional testing.</p>
+<p>JavaScript implementation</p>
 
-<p>Cucumber is popularly used in java programmed automation framework and it is wide popular in using with
-selenium web-driver component from selenium ecosystem.</p>
-
-<p>Front end developers are currently already got in hold of automation with frameworks like Protractor such as Angular. Now
-Cucumber also is now in hand with Front end to manage the automation tasks for a web application, by writing automation tasks
-from a front end knowledge.</p>
-
-<p>Yes, you can write your complete automation test suites in cucumber in our most loved Javascript.</p>
-
-<p>I have given a overview of Cucumber targeting Front end developers in below presentation,</p>
-
-<p>Please check it out.</p>
-
-<div class="embed-video-container"><iframe src="//www.youtube.com/embed/2QjyVJgk494" allowfullscreen></iframe></div>
-
-
-<p>But, Why is testing from cucumber is a front end task :(</p>
-
-<p>Because we know the standard and compliant HTML for the web application to make the tester to trigger actions / automate tasks
-as expected from a interactive designer with semantic values helping to solve accessibility issues as an example</p>
-
-<p>Cucumber exposes a new syntax from ruby - Gherkin</p>
-
-<p>which looks like as below:</p>
-
-<figure class='code'><figcaption><span>gherkin</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<figure class='code'><figcaption><span>max-draw.js</span><a href='https://gist.github.com/kiranml1/2c805c44a4b722e40186013470d5ad64'>link</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
 <span class='line-number'>4</span>
@@ -59,40 +33,74 @@ as expected from a interactive designer with semantic values helping to solve ac
 <span class='line-number'>9</span>
 <span class='line-number'>10</span>
 <span class='line-number'>11</span>
-</pre></td><td class='code'><pre><code class='gherkin'><span class='line'><span class="c"># features/my_feature.feature</span><span class="nf"></span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="kd">function</span> <span class="nx">main</span><span class="p">()</span> <span class="p">{</span>
+</span><span class='line'>  <span class="kd">var</span> <span class="nx">n_temp</span> <span class="o">=</span> <span class="nx">readLine</span><span class="p">().</span><span class="nx">split</span><span class="p">(</span><span class="s1">&#39; &#39;</span><span class="p">);</span>
+</span><span class='line'>  <span class="kd">var</span> <span class="nx">n</span> <span class="o">=</span> <span class="nb">parseInt</span><span class="p">(</span><span class="nx">n_temp</span><span class="p">[</span><span class="mi">0</span><span class="p">]);</span>
+</span><span class='line'>  <span class="kd">var</span> <span class="nx">k</span> <span class="o">=</span> <span class="nb">parseInt</span><span class="p">(</span><span class="nx">n_temp</span><span class="p">[</span><span class="mi">1</span><span class="p">]);</span>
+</span><span class='line'>  <span class="kd">var</span> <span class="nx">q</span> <span class="o">=</span> <span class="nb">parseInt</span><span class="p">(</span><span class="nx">n_temp</span><span class="p">[</span><span class="mi">2</span><span class="p">]);</span>
+</span><span class='line'>  <span class="nx">a</span> <span class="o">=</span> <span class="nx">readLine</span><span class="p">().</span><span class="nx">split</span><span class="p">(</span><span class="s1">&#39; &#39;</span><span class="p">);</span>
+</span><span class='line'>  <span class="nx">a</span> <span class="o">=</span> <span class="nx">a</span><span class="p">.</span><span class="nx">map</span><span class="p">(</span><span class="nb">Number</span><span class="p">);</span>
 </span><span class='line'>
-</span><span class='line'><span class="k">Feature:</span><span class="nf"> Example feature</span>
-</span><span class='line'><span class="nf">  As a user of Cucumber.js</span>
-</span><span class='line'><span class="nf">  I want to have documentation on Cucumber</span>
-</span><span class='line'><span class="nf">  So that I can concentrate on building awesome applications</span>
-</span><span class='line'>
-</span><span class='line'><span class="nf">  </span><span class="k">Scenario:</span><span class="nf"> Reading documentation</span>
-</span><span class='line'><span class="k">    Given </span><span class="nf">I am on the Cucumber.js GitHub repository</span>
-</span><span class='line'><span class="nf">    </span><span class="k">When </span><span class="nf">I go to the README file</span>
-</span><span class='line'><span class="nf">    </span><span class="k">Then </span><span class="nf">I should see &quot;</span><span class="s">Usage</span><span class="nf">&quot; as the page title</span>
+</span><span class='line'>  <span class="kd">var</span> <span class="nx">rot</span> <span class="o">=</span> <span class="nx">k</span><span class="o">%</span><span class="nx">n</span><span class="p">;</span>
+</span><span class='line'>  <span class="k">for</span><span class="p">(</span><span class="kd">var</span> <span class="nx">a0</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">a0</span> <span class="o">&lt;</span> <span class="nx">q</span><span class="p">;</span> <span class="nx">a0</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>    <span class="kd">var</span> <span class="nx">m</span> <span class="o">=</span> <span class="nb">parseInt</span><span class="p">(</span><span class="nx">readLine</span><span class="p">());</span>
+</span><span class='line'>    <span class="k">if</span> <span class="p">(</span><span class="nx">m</span> <span class="o">-</span> <span class="nx">rot</span> <span class="o">&gt;=</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>      <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">a</span><span class="p">[</span><span class="nx">m</span> <span class="o">-</span>  <span class="nx">rot</span><span class="p">]);</span>
+</span><span class='line'>    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+</span><span class='line'>      <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">a</span><span class="p">[</span><span class="nx">m</span> <span class="o">-</span> <span class="nx">rot</span> <span class="o">+</span> <span class="nx">a</span><span class="p">.</span><span class="nx">length</span><span class="p">]);</span>
+</span><span class='line'>    <span class="p">}</span>
+</span><span class='line'>  <span class="p">}</span>
+</span><span class='line'><span class="p">}</span>
 </span></code></pre></td></tr></table></div></figure>
 
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Hackerrank - Hand Shake]]></title>
+    <link href="http://akirank.com/blog/2017/01/22/hackerrank-hand-shake/"/>
+    <updated>2017-01-22T17:25:38+05:30</updated>
+    <id>http://akirank.com/blog/2017/01/22/hackerrank-hand-shake</id>
+    <content type="html"><![CDATA[<p>Hackerrank -  Hand shake</p>
 
-<p>the red colored syntax in the code snippet is gherkin sugar and the text in blue color are the general human readable
-content which gives every stakeholder in a project to compose to achieve of his interaction with browser.</p>
+<p>JavaScript implementation</p>
 
-<p>the statements after</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<figure class='code'><figcaption><span>max-draw.js</span><a href='https://gist.github.com/kiranml1/2c805c44a4b722e40186013470d5ad64'>link</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
 <span class='line-number'>4</span>
-</pre></td><td class='code'><pre><code class='gherkin'><span class='line'><span class="k">Given </span><span class="nf">...,</span>
-</span><span class='line'><span class="k">Then </span><span class="nf">..., </span>
-</span><span class='line'><span class="k">When </span><span class="nf">..., </span>
-</span><span class='line'><span class="k">And </span><span class="nf">...,</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="kd">function</span> <span class="nx">main</span><span class="p">()</span> <span class="p">{</span>
+</span><span class='line'>  <span class="kd">var</span> <span class="nx">T</span> <span class="o">=</span> <span class="nb">parseInt</span><span class="p">(</span><span class="nx">readLine</span><span class="p">());</span>
+</span><span class='line'>  <span class="k">for</span><span class="p">(</span><span class="kd">var</span> <span class="nx">a0</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">a0</span> <span class="o">&lt;</span> <span class="nx">T</span><span class="p">;</span> <span class="nx">a0</span><span class="o">++</span><span class="p">){</span>
+</span><span class='line'>    <span class="kd">var</span> <span class="nx">N</span> <span class="o">=</span> <span class="nb">parseInt</span><span class="p">(</span><span class="nx">readLine</span><span class="p">());</span>
+</span><span class='line'>    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nb">Math</span><span class="p">.</span><span class="nx">floor</span><span class="p">(</span><span class="nx">N</span> <span class="o">*</span> <span class="p">(</span><span class="nx">N</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span><span class="o">/</span><span class="mi">2</span><span class="p">));</span>
+</span><span class='line'>  <span class="p">}</span>
+</span><span class='line'><span class="p">}</span>
 </span></code></pre></td></tr></table></div></figure>
 
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Hackerrank - Max Draws]]></title>
+    <link href="http://akirank.com/blog/2017/01/22/hackerrank-max-draws/"/>
+    <updated>2017-01-22T17:21:44+05:30</updated>
+    <id>http://akirank.com/blog/2017/01/22/hackerrank-max-draws</id>
+    <content type="html"><![CDATA[<p>Hackerrank -  Max draws</p>
 
-<p> exposes a statement which is defined by front end developer from a step definition (function) in the framework by arguments which you pass
- as a string and executes the test in it as below :</p>
+<p>JavaScript implementation</p>
 
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<figure class='code'><figcaption><span>max-draw.js</span><a href='https://gist.github.com/kiranml1/6d32a8dc396ea6a0896bb3ec05d49913'>link</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
 <span class='line-number'>4</span>
@@ -100,69 +108,46 @@ content which gives every stakeholder in a project to compose to achieve of his 
 <span class='line-number'>6</span>
 <span class='line-number'>7</span>
 <span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-</pre></td><td class='code'><pre><code class='javascript'><span class='line'>   <span class="k">this</span><span class="p">.</span><span class="nx">Given</span><span class="p">(</span><span class="sr">/^the blogger is navigated to &quot;([^&quot;]*)&quot;$/</span><span class="p">,</span> <span class="p">{</span>
-</span><span class='line'>     <span class="nx">timeout</span><span class="o">:</span> <span class="nx">config</span><span class="p">.</span><span class="nx">timeout</span>
-</span><span class='line'>   <span class="p">},</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">path</span><span class="p">,</span> <span class="nx">next</span><span class="p">)</span> <span class="p">{</span>
-</span><span class='line'>
-</span><span class='line'>     <span class="k">this</span><span class="p">.</span><span class="nx">driver</span>
-</span><span class='line'>       <span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="nx">config</span><span class="p">.</span><span class="nx">baseUrl</span> <span class="o">+</span> <span class="nx">path</span><span class="p">)</span>
-</span><span class='line'>       <span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
-</span><span class='line'>         <span class="nx">next</span><span class="p">();</span>
-</span><span class='line'>       <span class="p">});</span>
-</span><span class='line'>   <span class="p">});</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="kd">function</span> <span class="nx">processData</span><span class="p">(</span><span class="nx">input</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>  <span class="kd">var</span> <span class="nx">data</span> <span class="o">=</span> <span class="nx">input</span><span class="p">.</span><span class="nx">split</span><span class="p">(</span><span class="s2">&quot;\n&quot;</span><span class="p">)</span>
+</span><span class='line'>  <span class="kd">var</span> <span class="nx">t</span> <span class="o">=</span> <span class="nx">data</span><span class="p">[</span><span class="mi">0</span><span class="p">];</span>
+</span><span class='line'>  <span class="k">for</span> <span class="p">(</span><span class="kd">var</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">1</span> <span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;=</span> <span class="nx">t</span><span class="p">;</span> <span class="nx">i</span> <span class="o">+=</span> <span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>    <span class="kd">var</span> <span class="nx">n</span> <span class="o">=</span> <span class="nx">data</span><span class="p">[</span><span class="nx">i</span><span class="p">].</span><span class="nx">match</span><span class="p">(</span><span class="sr">/\d+/g</span><span class="p">);</span>
+</span><span class='line'>    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nb">parseInt</span><span class="p">(</span><span class="nx">n</span><span class="p">)</span> <span class="o">+</span> <span class="mi">1</span><span class="p">);</span>
+</span><span class='line'>  <span class="p">}</span>
+</span><span class='line'><span class="p">}</span>
 </span></code></pre></td></tr></table></div></figure>
 
-
-<p> Now any stakeholder can use/reuse write this step in his gherkin as below:</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='gherkin'><span class='line'><span class="nf"> </span><span class="k">Given </span><span class="nf">the blogger is navigated to &quot;</span><span class="s">https://github.com/kiranml1</span><span class="nf">&quot;</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p> I have created boilerplate for starting up a project with cucumber-js - <a href="https://github.com/kiranml1/cucumberjs-selenium-webdriver-boilerplate/blob/master/features/step_definitions/steps.js">boilerplate</a></p>
-
-<p> Hope this helps :)</p>
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Get Knowledge on Trignomentry]]></title>
-    <link href="http://akirankumar.org/blog/2016/03/12/getting-known-trignomentry/"/>
-    <updated>2016-03-12T01:00:47+05:30</updated>
-    <id>http://akirankumar.org/blog/2016/03/12/getting-known-trignomentry</id>
-    <content type="html"><![CDATA[<p>Trigonometry is a subject derived from Geometry in mathematics and it usually works in 2D co-ordinate system with right angle triangles (perpendicular sides).
-We usually dont mind for writing any logic around this concept, until we try to visualize any element in circular values.</p>
+    <title type="html"><![CDATA[Hackerrank - Find the Point]]></title>
+    <link href="http://akirank.com/blog/2017/01/22/hackerrank-find-a-point/"/>
+    <updated>2017-01-22T16:40:26+05:30</updated>
+    <id>http://akirank.com/blog/2017/01/22/hackerrank-find-a-point</id>
+    <content type="html"><![CDATA[<p>Hackerrank - Find the Point</p>
 
-<p>Check my experiment on this subject, It gives a little idea</p>
+<p>Javascript implementation</p>
 
-<p><strong> Go to </strong><a href="http://kiranml1.github.io/researchdemos/demos/trignomentry/">Experiment</a></p>
+<figure class='code'><figcaption><span>find-a-point.js</span><a href='https://gist.github.com/kiranml1/627b82e703966c54095f6baa45296396'>link</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="kd">function</span> <span class="nx">findPoint</span><span class="p">(</span><span class="nx">input</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>  <span class="kd">var</span> <span class="nx">data</span> <span class="o">=</span> <span class="nx">input</span><span class="p">.</span><span class="nx">split</span><span class="p">(</span><span class="s2">&quot;\n&quot;</span><span class="p">)</span>
+</span><span class='line'>  <span class="kd">var</span> <span class="nx">n</span> <span class="o">=</span> <span class="nx">data</span><span class="p">[</span><span class="mi">0</span><span class="p">];</span>
+</span><span class='line'>  <span class="k">for</span> <span class="p">(</span><span class="kd">var</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">1</span> <span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;=</span> <span class="nx">n</span><span class="p">;</span> <span class="nx">i</span> <span class="o">+=</span> <span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>    <span class="kd">var</span> <span class="nx">pq</span> <span class="o">=</span> <span class="nx">data</span><span class="p">[</span><span class="nx">i</span><span class="p">].</span><span class="nx">match</span><span class="p">(</span><span class="sr">/\d+/g</span><span class="p">).</span><span class="nx">map</span><span class="p">(</span><span class="nb">Number</span><span class="p">);</span>
+</span><span class='line'>    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">((</span><span class="nx">pq</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">+</span> <span class="p">(</span><span class="nx">pq</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">-</span> <span class="nx">pq</span><span class="p">[</span><span class="mi">0</span><span class="p">]))</span> <span class="o">+</span> <span class="s2">&quot; &quot;</span> <span class="o">+</span> <span class="p">(</span><span class="nx">pq</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span> <span class="o">+</span> <span class="p">(</span><span class="nx">pq</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span> <span class="o">-</span> <span class="nx">pq</span><span class="p">[</span><span class="mi">1</span><span class="p">])));</span>
+</span><span class='line'>  <span class="p">}</span>
+</span><span class='line'><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure>
 
-<p>When this subject comes into play, a basic figure should come into our imagination.
-Which should be as below:</p>
-
-<p><img class="left" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Rtriangle.svg/220px-Rtriangle.svg.png" width="320" height="250" title="Right Angle Triangle Fig-1" ></p>
-
-<p>In Fig-1, we have sides - a, b, c of 90&deg; sided triangle</p>
-
-<p>a - <strong>opposite</strong>  b - <strong>adjacent</strong>  c - <strong>hypotenuse</strong></p>
-
-<p>a,b,c are line segments with a positive value in length and few combinational ratios on these sides gives some circular values.</p>
-
-<p>sin &#1012; = b &divide; c ( Here &#1012; can be &ang;A | &ang;B )</p>
-
-<p>cos &#1012; = a &divide; c ( Here &#1012; can be &ang;B | &ang;A )</p>
-
-<p>tan &#1012; = a &divide; b ( Here &#1012; depend on sin &#1012; and cos &#1012; )</p>
-
-<p><img class="left" src="https://www.arcat.com/bim/kleerlum/Moulding_Kleer_QuarterRound.jpg" width="320" height="250" title="Quarter circle Fig-2" ></p>
-
-<p>Above properties of the triangle describe the ratios of sides of a &perp; triangle, which substitute a circle ratio
-from a quarter in complete circle.</p>
-
-<p>Hope this helps to get some context about trigonometry</p>
 ]]></content>
   </entry>
   

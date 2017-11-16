@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Algorithms | Kiran Kumar - Front End Developer]]></title>
-  <link href="http://akirank.com/blog/categories/algorithms/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Data Structures | Kiran Kumar - Front End Developer]]></title>
+  <link href="http://akirank.com/blog/categories/data-structures/atom.xml" rel="self"/>
   <link href="http://akirank.com/"/>
   <updated>2017-11-16T23:05:27+05:30</updated>
   <id>http://akirank.com/</id>
