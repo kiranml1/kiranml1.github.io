@@ -11,10 +11,6 @@ categories:
 ---
 Hackerrank - Find the Point
 
-Consider two points,  and . We consider the inversion or point reflection, , of point  across point  to be a  rotation of point  around .
-
-Given  sets of points  and , find  for each pair of points and print two space-separated integers denoting the respective values of  and  on a new line.
-
 Javascript implementation
 ``` javascript find-a-point.js https://gist.github.com/kiranml1/627b82e703966c54095f6baa45296396
     function findPoint(input) {
@@ -25,9 +21,4 @@ Javascript implementation
         console.log((pq[2] + (pq[2] - pq[0])) + " " + (pq[3] + (pq[3] - pq[1])));
       }
     }
-```
-
-Java implementation
-``` java
-    // Need to implement in java
 ```
