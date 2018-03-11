@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hackerrank - Max draws"
+title: "Codes - Max draws"
 date: 2017-01-22 17:21:44 +0530
 comments: true
 published: true
@@ -9,11 +9,9 @@ categories:
 - Algorithms
 - Data Structures
 ---
-Hackerrank -  Max draws
-
-JavaScript implementation
-``` javascript max-draw.js https://gist.github.com/kiranml1/6d32a8dc396ea6a0896bb3ec05d49913 
-    function processData(input) {
+Hackerrank codes - Max draws (Implementation in JS)
+``` javascript max-draw.js https://gist.github.com/kiranml1/6d32a8dc396ea6a0896bb3ec05d49913
+    function maxDraws(input) {
       var data = input.split("\n")
       var t = data[0];
       for (var i = 1 ; i <= t; i += 1) {
