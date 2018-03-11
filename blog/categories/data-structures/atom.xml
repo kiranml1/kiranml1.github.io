@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Data Structures | Kiran Kumar - Front End Developer]]></title>
+  <title><![CDATA[Category: Data Structures | Kiran's Blog]]></title>
   <link href="http://akirank.com/blog/categories/data-structures/atom.xml" rel="self"/>
   <link href="http://akirank.com/"/>
-  <updated>2018-03-11T16:53:21+05:30</updated>
+  <updated>2018-03-11T17:27:48+05:30</updated>
   <id>http://akirank.com/</id>
   <author>
     <name><![CDATA[Kiran Kumar]]></name>
@@ -14,15 +14,13 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Hackerrank - Circular Array Rotation]]></title>
+    <title type="html"><![CDATA[Codes - Circular Array Rotation]]></title>
     <link href="http://akirank.com/blog/2017/01/22/hackerrank-circular-array-rotation/"/>
     <updated>2017-01-22T17:26:49+05:30</updated>
     <id>http://akirank.com/blog/2017/01/22/hackerrank-circular-array-rotation</id>
-    <content type="html"><![CDATA[<p>Hackerrank - Circular array rotation</p>
-
-<p>JavaScript implementation
+    <content type="html"><![CDATA[<p>Hackerrank codes - Circular array rotation (Implementation in JS)
 ``` javascript max-draw.js <a href="https://gist.github.com/kiranml1/2c805c44a4b722e40186013470d5ad64">https://gist.github.com/kiranml1/2c805c44a4b722e40186013470d5ad64</a>
-    function main() {
+    function rotate() {
       var n_temp = readLine().split(&lsquo; &rsquo;);
       var n = parseInt(n_temp[0]);
       var k = parseInt(n_temp[1]);
@@ -47,15 +45,13 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Hackerrank - Hand Shake]]></title>
+    <title type="html"><![CDATA[Codes - Hand Shake]]></title>
     <link href="http://akirank.com/blog/2017/01/22/hackerrank-hand-shake/"/>
     <updated>2017-01-22T17:25:38+05:30</updated>
     <id>http://akirank.com/blog/2017/01/22/hackerrank-hand-shake</id>
-    <content type="html"><![CDATA[<p>Hackerrank -  Hand shake</p>
-
-<p>JavaScript implementation
+    <content type="html"><![CDATA[<p>Hackerrank codes - Hand shake (Implementation in JS)
 <code>javascript max-draw.js https://gist.github.com/kiranml1/2c805c44a4b722e40186013470d5ad64
-    function main() {
+    function handshake() {
       var T = parseInt(readLine());
       for(var a0 = 0; a0 &lt; T; a0++){
         var N = parseInt(readLine());
@@ -67,15 +63,13 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Hackerrank - Max Draws]]></title>
+    <title type="html"><![CDATA[Codes - Max Draws]]></title>
     <link href="http://akirank.com/blog/2017/01/22/hackerrank-max-draws/"/>
     <updated>2017-01-22T17:21:44+05:30</updated>
     <id>http://akirank.com/blog/2017/01/22/hackerrank-max-draws</id>
-    <content type="html"><![CDATA[<p>Hackerrank -  Max draws</p>
-
-<p>JavaScript implementation
+    <content type="html"><![CDATA[<p>Hackerrank codes - Max draws (Implementation in JS)
 <code>javascript max-draw.js https://gist.github.com/kiranml1/6d32a8dc396ea6a0896bb3ec05d49913
-    function processData(input) {
+    function maxDraws(input) {
       var data = input.split("\n")
       var t = data[0];
       for (var i = 1 ; i &lt;= t; i += 1) {
@@ -88,13 +82,11 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Hackerrank - Find the Point]]></title>
+    <title type="html"><![CDATA[Codes - Find the Point]]></title>
     <link href="http://akirank.com/blog/2017/01/22/hackerrank-find-a-point/"/>
     <updated>2017-01-22T16:40:26+05:30</updated>
     <id>http://akirank.com/blog/2017/01/22/hackerrank-find-a-point</id>
-    <content type="html"><![CDATA[<p>Hackerrank - Find the Point</p>
-
-<p>Javascript implementation
+    <content type="html"><![CDATA[<p>Hackerrank codes - Find the Point (Implementation in JS)
 <code>javascript find-a-point.js https://gist.github.com/kiranml1/627b82e703966c54095f6baa45296396
     function findPoint(input) {
       var data = input.split("\n")

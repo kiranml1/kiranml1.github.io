@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Kiran Kumar - Front End Developer]]></title>
+  <title><![CDATA[Kiran's Blog]]></title>
   <link href="http://akirank.com/atom.xml" rel="self"/>
   <link href="http://akirank.com/"/>
-  <updated>2018-03-11T16:53:21+05:30</updated>
+  <updated>2018-03-11T17:27:48+05:30</updated>
   <id>http://akirank.com/</id>
   <author>
     <name><![CDATA[Kiran Kumar]]></name>
@@ -14,13 +14,11 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Hackerrank - Circular Array Rotation]]></title>
+    <title type="html"><![CDATA[Codes - Circular Array Rotation]]></title>
     <link href="http://akirank.com/blog/2017/01/22/hackerrank-circular-array-rotation/"/>
     <updated>2017-01-22T17:26:49+05:30</updated>
     <id>http://akirank.com/blog/2017/01/22/hackerrank-circular-array-rotation</id>
-    <content type="html"><![CDATA[<p>Hackerrank - Circular array rotation</p>
-
-<p>JavaScript implementation</p>
+    <content type="html"><![CDATA[<p>Hackerrank codes - Circular array rotation (Implementation in JS)</p>
 
 <figure class='code'><figcaption><span>max-draw.js</span><a href='https://gist.github.com/kiranml1/2c805c44a4b722e40186013470d5ad64'>link</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -40,7 +38,7 @@
 <span class='line-number'>16</span>
 <span class='line-number'>17</span>
 <span class='line-number'>18</span>
-</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="kd">function</span> <span class="nx">main</span><span class="p">()</span> <span class="p">{</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="kd">function</span> <span class="nx">rotate</span><span class="p">()</span> <span class="p">{</span>
 </span><span class='line'>  <span class="kd">var</span> <span class="nx">n_temp</span> <span class="o">=</span> <span class="nx">readLine</span><span class="p">().</span><span class="nx">split</span><span class="p">(</span><span class="s1">&#39; &#39;</span><span class="p">);</span>
 </span><span class='line'>  <span class="kd">var</span> <span class="nx">n</span> <span class="o">=</span> <span class="nb">parseInt</span><span class="p">(</span><span class="nx">n_temp</span><span class="p">[</span><span class="mi">0</span><span class="p">]);</span>
 </span><span class='line'>  <span class="kd">var</span> <span class="nx">k</span> <span class="o">=</span> <span class="nb">parseInt</span><span class="p">(</span><span class="nx">n_temp</span><span class="p">[</span><span class="mi">1</span><span class="p">]);</span>
@@ -64,13 +62,11 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Hackerrank - Hand Shake]]></title>
+    <title type="html"><![CDATA[Codes - Hand Shake]]></title>
     <link href="http://akirank.com/blog/2017/01/22/hackerrank-hand-shake/"/>
     <updated>2017-01-22T17:25:38+05:30</updated>
     <id>http://akirank.com/blog/2017/01/22/hackerrank-hand-shake</id>
-    <content type="html"><![CDATA[<p>Hackerrank -  Hand shake</p>
-
-<p>JavaScript implementation</p>
+    <content type="html"><![CDATA[<p>Hackerrank codes - Hand shake (Implementation in JS)</p>
 
 <figure class='code'><figcaption><span>max-draw.js</span><a href='https://gist.github.com/kiranml1/2c805c44a4b722e40186013470d5ad64'>link</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -79,7 +75,7 @@
 <span class='line-number'>5</span>
 <span class='line-number'>6</span>
 <span class='line-number'>7</span>
-</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="kd">function</span> <span class="nx">main</span><span class="p">()</span> <span class="p">{</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="kd">function</span> <span class="nx">handshake</span><span class="p">()</span> <span class="p">{</span>
 </span><span class='line'>  <span class="kd">var</span> <span class="nx">T</span> <span class="o">=</span> <span class="nb">parseInt</span><span class="p">(</span><span class="nx">readLine</span><span class="p">());</span>
 </span><span class='line'>  <span class="k">for</span><span class="p">(</span><span class="kd">var</span> <span class="nx">a0</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">a0</span> <span class="o">&lt;</span> <span class="nx">T</span><span class="p">;</span> <span class="nx">a0</span><span class="o">++</span><span class="p">){</span>
 </span><span class='line'>    <span class="kd">var</span> <span class="nx">N</span> <span class="o">=</span> <span class="nb">parseInt</span><span class="p">(</span><span class="nx">readLine</span><span class="p">());</span>
@@ -92,13 +88,11 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Hackerrank - Max Draws]]></title>
+    <title type="html"><![CDATA[Codes - Max Draws]]></title>
     <link href="http://akirank.com/blog/2017/01/22/hackerrank-max-draws/"/>
     <updated>2017-01-22T17:21:44+05:30</updated>
     <id>http://akirank.com/blog/2017/01/22/hackerrank-max-draws</id>
-    <content type="html"><![CDATA[<p>Hackerrank -  Max draws</p>
-
-<p>JavaScript implementation</p>
+    <content type="html"><![CDATA[<p>Hackerrank codes - Max draws (Implementation in JS)</p>
 
 <figure class='code'><figcaption><span>max-draw.js</span><a href='https://gist.github.com/kiranml1/6d32a8dc396ea6a0896bb3ec05d49913'>link</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -108,7 +102,7 @@
 <span class='line-number'>6</span>
 <span class='line-number'>7</span>
 <span class='line-number'>8</span>
-</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="kd">function</span> <span class="nx">processData</span><span class="p">(</span><span class="nx">input</span><span class="p">)</span> <span class="p">{</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="kd">function</span> <span class="nx">maxDraws</span><span class="p">(</span><span class="nx">input</span><span class="p">)</span> <span class="p">{</span>
 </span><span class='line'>  <span class="kd">var</span> <span class="nx">data</span> <span class="o">=</span> <span class="nx">input</span><span class="p">.</span><span class="nx">split</span><span class="p">(</span><span class="s2">&quot;\n&quot;</span><span class="p">)</span>
 </span><span class='line'>  <span class="kd">var</span> <span class="nx">t</span> <span class="o">=</span> <span class="nx">data</span><span class="p">[</span><span class="mi">0</span><span class="p">];</span>
 </span><span class='line'>  <span class="k">for</span> <span class="p">(</span><span class="kd">var</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">1</span> <span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;=</span> <span class="nx">t</span><span class="p">;</span> <span class="nx">i</span> <span class="o">+=</span> <span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
@@ -122,13 +116,11 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Hackerrank - Find the Point]]></title>
+    <title type="html"><![CDATA[Codes - Find the Point]]></title>
     <link href="http://akirank.com/blog/2017/01/22/hackerrank-find-a-point/"/>
     <updated>2017-01-22T16:40:26+05:30</updated>
     <id>http://akirank.com/blog/2017/01/22/hackerrank-find-a-point</id>
-    <content type="html"><![CDATA[<p>Hackerrank - Find the Point</p>
-
-<p>Javascript implementation</p>
+    <content type="html"><![CDATA[<p>Hackerrank codes - Find the Point (Implementation in JS)</p>
 
 <figure class='code'><figcaption><span>find-a-point.js</span><a href='https://gist.github.com/kiranml1/627b82e703966c54095f6baa45296396'>link</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
