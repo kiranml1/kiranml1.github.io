@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Algorithms | Kiran's Blog]]></title>
-  <link href="http://akirank.com/blog/categories/algorithms/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Hackerrank | Kiran's Blog]]></title>
+  <link href="http://akirank.com/blog/categories/hackerrank/atom.xml" rel="self"/>
   <link href="http://akirank.com/"/>
   <updated>2019-05-11T13:32:17+05:30</updated>
   <id>http://akirank.com/</id>
